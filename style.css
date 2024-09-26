@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /*INTER*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /*ROBOTO*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color: rgb(237, 228, 216);
+    font-family: 'Inter', sans-serif;
+}
+
+.main-content{
+    justify-content: center;
+    display: flex;
+}
+
+.sec-content{
+    margin-top: 110px;
+    background-color: #fff;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-img{
+    height: 90vh;
+    /* border-top-left-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    padding-top: 110px;
+}
+
+.description{
+    width: 18vw;
+    font-size: 1.2rem;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 28px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+h1{
+    width: 16vw;
+    padding-top: 18px;
+    font-size: 1.8rem;
+}
+
+.description{
+    padding-top: 18px;
+    font-size: .9rem;
+    color: #6f6f6f;
+}
+
+.prices{
+    display: flex;
+    gap: 18px;
+    padding-top: 20px;
+}
+
+.price{
+    font-size: 1.7rem;
+    color: rgb(3, 84, 3);
+    font-weight: bold;
+}
+
+.price-dashed{
+    padding-top: 8px;
+    color: #6f6f6f;
+    text-decoration: line-through;    /*deixa o texto riscado*/
+}
+
+button{
+    margin-top: 28px;
+    border: none;
+    padding: 14px;
+    width: 17vw;
+    background-color: rgb(3, 84, 3);
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 66, 3);
+}
+
+.icon-cart{
+    margin-left: 50px;
+    height: 2.2vh;
+}
+
+.title-card{
+    margin-left: 6px;
+}
